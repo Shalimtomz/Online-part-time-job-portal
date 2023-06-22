@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .button.reject {
+    background-color: #F44336;
+  }
